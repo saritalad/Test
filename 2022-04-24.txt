@@ -1,0 +1,21 @@
+2022-04-24 12:33:16,922 [4] INFO  App  
+ Log System Initialized 
+ 
+2022-04-24 12:33:16,936 [4] INFO  App  
+ On the Trainee Controller constructor 
+ 
+2022-04-24 12:33:16,936 [12] INFO  App  
+ On the Trainee Controller constructor 
+ 
+2022-04-24 12:33:16,936 [6] INFO  App  
+ On the Trainee Controller constructor 
+ 
+2022-04-24 12:33:17,097 [12] INFO  App  
+ 3 records created. Passing to view 
+ 
+2022-04-24 12:33:17,097 [6] INFO  App  
+ 3 records created. Passing to view 
+ 
+2022-04-24 12:33:17,097 [4] INFO  App  
+ 3 records created. Passing to view 
+ 
