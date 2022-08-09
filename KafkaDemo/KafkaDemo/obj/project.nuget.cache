@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "mpO0FwLcdKUZY6ycLjHtUaR3P5zkWVW55yRJ50dCm6J0DtHCjlN6ciMoKIPPWxkRpgizHkKb5gYvitguW9hmOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samsung\\source\\repos\\KafkaDemo\\KafkaDemo\\KafkaDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samsung\\.nuget\\packages\\kafka-net\\0.9.0.65\\kafka-net.0.9.0.65.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'kafka-net 0.9.0.65' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "kafka-net",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

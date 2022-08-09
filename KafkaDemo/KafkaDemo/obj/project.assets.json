@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v5.0,Profile=windows": {
+      "kafka-net/0.9.0.65": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "kafka-net/0.9.0.65": {
+      "sha512": "bJ89gwjnoNWJpw/DIU5O7vauPrm/pCaX9tFAzOyWoxqcR/ua7YxXHN1TzCY6/0OkO89eD9bsow5qt6xw4RXXPw==",
+      "type": "package",
+      "path": "kafka-net/0.9.0.65",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "kafka-net.0.9.0.65.nupkg.sha512",
+        "kafka-net.nuspec",
+        "lib/net45/kafka-net.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v5.0,Profile=windows": [
+      "kafka-net >= 0.9.0.65"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ABCCOMPUTERS\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\NET_Core_All\\FSD_Training\\KafkaDemo\\KafkaDemo\\KafkaDemo.csproj",
+      "projectName": "KafkaDemo",
+      "projectPath": "F:\\NET_Core_All\\FSD_Training\\KafkaDemo\\KafkaDemo\\KafkaDemo.csproj",
+      "packagesPath": "C:\\Users\\ABCCOMPUTERS\\.nuget\\packages\\",
+      "outputPath": "F:\\NET_Core_All\\FSD_Training\\KafkaDemo\\KafkaDemo\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ABCCOMPUTERS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net50-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net50-windows": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net50-windows": {
+        "dependencies": {
+          "kafka-net": {
+            "target": "Package",
+            "version": "[0.9.0.65, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package kafka-net 0.9.0.65 is not compatible with net50-windows (.NETFramework,Version=v5.0,Profile=windows). Package kafka-net 0.9.0.65 supports: net45 (.NETFramework,Version=v4.5)",
+      "libraryId": "kafka-net",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0,Profile=windows"
+      ]
+    }
+  ]
+}
